@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 10px;
+    font-family: "Snippet", sans-serif;
+}
+
+/* ---- paleta de colores ---- */
+
+:root{
+    --color1: #1B1918;
+    --color2: #890909;
+    --color3: #DE3737;
+    --color4: #FCBB3D;
+    --color5: #FFF388;
+    --color6: #FFFFFF;
+}

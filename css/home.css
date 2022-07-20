@@ -1,0 +1,454 @@
+body{
+    width: 100%;
+    min-height: 65rem;
+    background-image: url(../img/coso.jpg);
+    background-size:cover;
+}
+
+/* ---- header ---- */
+
+.nav{
+    list-style: none;
+    width: 18rem;
+    font-size: 20px;
+    
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo1{
+    width: 110px;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+header{
+    width: 100%;
+    height: 41px;
+    min-height: 10rem;
+    background: #1B1918;
+    padding: 0rem 2rem;
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.btn_compra{
+    width: 60px;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn_inicio{
+    width: 60px;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* ---- redes sociales principales ---- */
+
+.redes_principales{
+    padding-top: 3px;
+    padding-left: 310px;
+    content: center;
+    list-style: none;
+    font-size: 8px;
+    width: 79%;
+    justify-content: space-around;
+
+}
+
+.divi1{
+    padding-top: 30px;
+    padding-left: 599px;
+    list-style: none;
+    font-size: 30px;
+    width: 130%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.btn_face{
+   list-style: none;
+    width: 40px;
+    justify-content: space-between;
+}
+
+.btn_insta{
+   list-style: none;
+    width: 40px;
+    justify-content: space-between;
+}
+
+.btn_tiktok{
+   list-style: none;
+    width: 40px;
+    justify-content: space-between;
+}
+
+
+/* ---- puro index ---- */
+
+body{
+    width: 100%;
+    min-height: 65rem;
+    background-image: url(../img/coso.jpg);
+    background-size:cover;
+}
+
+parte_inicial{
+    width: 110px;
+    height: 200px;
+    justify-content: space-between;
+}
+
+.logo_principal{
+    width: 800px;
+    display: flex;
+    padding-top: 40px;
+    padding-left: 470px;
+}
+
+.info{
+    padding-top: 50px;
+    margin-left: 30px;
+    content: center;
+    list-style: none;
+    font-size: 30px;
+    width: 700px;
+    height: 43px;
+    display: flex;
+    justify-content: space-around;
+    position: absolute;
+    left: 250px;
+    top: 500px;
+    
+}
+
+/* ---- un boton menos ---- */
+
+.btn_{
+    display: inline-block;
+    padding-left: 520%;
+    width: 190px;
+    text-align: center;
+    color: #FFFFFF;
+    text-decoration: none;
+    padding: 10px 0px;
+    border: 3px solid var(--color6);
+    
+}
+
+.btn_:hover{
+    width: 180px;
+    color: black;
+    background: white;
+    transition: 0.3s;
+}
+
+
+/* ---- segunda sección ---- */
+
+
+.artesanal_info{
+    padding-top: 410px;
+    padding-left: 20px;
+
+}
+
+.information_artesanal{
+    padding-top: 280px;
+    position: absolute;
+    width: 514px;
+    height: 200px;
+    left: 625px;
+    top: 856px;
+    font-family: 'Snippet';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: #FFFFFF;
+}
+
+
+.artesanal_pizza{
+    padding-top: 0px;
+    padding-left: 70px;
+    float: left;
+    
+}
+
+/* ---- otro boton ---- */
+
+.btn_pedir{
+    display: inline-block;
+    position: absolute;
+    font-size: 20px;
+    width: 158.81px;
+    height: 43px;
+    left: 803px;
+    top: 1250px;
+    text-align: center;
+    color: #FFFFFF;
+    text-decoration: none;
+    padding: 6px 0px;
+    border: 3px solid var(--color6);
+}
+
+.btn_pedir:hover{
+    width: 180px;
+    color: black;
+    background: white;
+    transition: 0.3s;
+}
+
+/* --------------------------------------- */
+/* ---- tercera sección, Nivel backroom--- */
+/* --------------------------------------- */
+
+.center-aling {
+    padding-top: 220px;
+    text-align: center;
+    font-size: 30;
+    font-family: 'Snippet';
+    color: #FFFFFF;
+}
+
+/* --------------------------------------- */
+
+.carousel {
+    min-height: 500px;
+}
+
+.carousel .carousel-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    user-select: none;
+    width: 290px;
+    height: 500px;
+}
+
+.carousel .carousel-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+/* ---------Fin de la tortura--------- */
+
+.camaronera_info {
+    padding-top: 350px;
+    padding-left: 20px;
+
+}
+
+.information_camaron {
+    position: absolute;
+    width: 514px;
+    height: 400px;
+    left: 88px;
+    top: 2554px;
+/*------- Párrafo 1 -------*/
+    font-family: 'Snippet';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: #FFFFFF;
+}
+
+.artesanal_camaron{
+    position: absolute;
+    width: 553.66px;
+    height: 550.01px;
+    left: 657px;
+    top: 2538px;
+
+}
+
+.btn_pedir2 {
+    position: absolute;
+    width: 158.81px;
+    height: 43px;
+    left: 250px;
+    top: 2885px;
+    display: inline-block;
+    font-size: 20px;
+    text-align: center;
+    color: #FFFFFF;
+    text-decoration: none;
+    padding: 6px 0px;
+    border: 3px solid var(--color6);
+}
+
+.btn_pedir2:hover{
+    width: 180px;
+    color: black;
+    background: white;
+    transition: 0.3s;
+}
+
+
+.fundador_info{
+    padding-top: 450px;
+    padding-left: 20px;
+}
+
+.artesanal_fundador{
+    position: absolute;
+    width: 659px;
+    height: 623px;
+    left: 12px;
+    top: 3310px;
+}
+
+.titulo_fundators{
+    position: absolute;
+    width: 446px;
+    height: 151px;
+    left: 684px;
+    top: 3370px;
+    font-family: 'Snippet';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 70px;
+    line-height: 81px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.information_jefe{
+    position: absolute;
+    width: 514px;
+    height: 365px;
+    left: 671px;
+    top: 3501px;
+
+/* Párrafo 1 */
+    
+    font-family: 'Snippet';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: #FFFFFF;
+}
+
+/*redes sociales del jefe*/
+
+ 
+.divi2{
+    position: absolute;
+    width: 175px;
+    height: 55px;
+    left: 100px;
+    top: 4493px;
+}
+
+.btn_tiktok_jefe{
+    position: absolute;
+    width: 48.24px;
+    height: 50px;
+    left: 804px;
+    
+}
+
+.btn_insta_jefe{
+    position: absolute;
+    width: 41.51px;
+    height: 44px;
+    left: 875.79px;
+    
+}
+
+.btn_face_jefe{
+    position: absolute;
+    width: 38.14px;
+    height: 44px;
+    left: 940.86px;
+    
+}
+
+.footer{
+    position: absolute;
+    left: -27px;
+    top: 4572px;
+    width: 1290px;
+    height: 130px;
+    background-color: darkred;
+}
+
+.infox2{
+    position: absolute;
+    width: 293px;
+    height: 230px;
+    left: 440px;
+    top: 4300px;
+    color: white;
+    align-content: center;
+}
+
+.logo1_1{
+    position: absolute;
+    width: 280px;
+    height: 228px;
+    left: 158px;
+    top: 4318px;
+}
+
+.btn_camilo2{
+    position: absolute;
+    width: 340px;
+    height: 80px;
+    left: 747px;
+    top: 3823px;
+    /* Titulo 3 */
+    
+    display: inline-block;
+    font-size: 40px;
+    text-align: center;
+    color: #FFFFFF;
+    text-decoration: none;
+    padding: 6px 0px;
+    border: 3px solid var(--color6);
+}
+
+
+.btn_camilo2:hover{
+    width: 350px;
+    color: black;
+    background: white;
+    transition: 0.3s;
+}
+
+
+
+
+
+
